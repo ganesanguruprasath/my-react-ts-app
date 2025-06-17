@@ -9,8 +9,8 @@ import './App.css';
 export function App() {
   const [notes, setNotes] = useState<Note[]>([{
     id: (new Date).toString(),
-    name: "sugar",
-    text: "text sugar regarding the life",
+    name: "example",
+    text: "example text",
     color: "#eeeeee",
     date: (new Date).toString()
   }]);
