@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Container, Navbar } from 'react-bootstrap';
 
-interface IHeaderProps {
-}
+// interface IHeaderProps {
+// }
 
 // const Header: React.FunctionComponent<IHeaderProps> = (props) => { OR }
-const Header: React.FC<IHeaderProps> = (props) => {
+const Header: React.FC = () => {
     return (
         <>
             <Container>
@@ -18,3 +18,5 @@ const Header: React.FC<IHeaderProps> = (props) => {
 };
 
 export default Header;
+
+

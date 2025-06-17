@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Card, Col, Container, Row} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 import { type Note } from './model/note.model';
 import Header from './components/header/Header';
 import NotesList from './components/notes/NotesList';
